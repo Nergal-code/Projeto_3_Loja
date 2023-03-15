@@ -1,0 +1,76 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #17384C;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #0090e4 ;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand
+.navbar-brand:hover,
+.nav-produto .nav-link.active:hover{
+    color: #fff;
+}
+
+.section-title{
+    font-family: Source Sans Pro, cursive ;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+#sobre , #produto{
+    background-color: #849696;
+}
+
+.text-colored{
+    color: #0090e4;
+}
+
+.nav-produto .nav-link.active,
+#faleconosco button{
+    background-color: #0090e4;
+    color: #fff;
+}
+
+.nav-produto .nav-link:hover{
+    color: #0090e4;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.text-colored-1{
+    color: rgb(63, 63, 63);
+}
+
+.carousel-item img{
+    height: 510px;
+    width: 100%;
+}
+
+.item{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+
+@media screen and (max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
